@@ -43,7 +43,7 @@ function CountryDetail({ darkMode, countries }) {
     })
 
     const goBack = () => {
-        navigate("/");
+        navigate("/front-end-2");
     }
 
     return (
