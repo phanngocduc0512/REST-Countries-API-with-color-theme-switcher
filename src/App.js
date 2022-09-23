@@ -92,7 +92,7 @@ function App() {
         <Header onClick={switchMode} darkMode={darkMode}/>
         <Routes>
           <Route
-            path='/front-end-2'
+            path='/'
             element={
             <div className={`app-body ${darkMode ? 'dark-mode' : ''}`}>
               <div className='input'>

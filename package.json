@@ -2,7 +2,7 @@
   "name": "front-end-2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://phanngocduc0512.github.io/front-end-2",
+  "homepage": "https://phanngocduc0512.github.io/REST-Countries-API-with-color-theme-switcher/",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
