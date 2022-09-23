@@ -83,7 +83,7 @@ function CountryDetail({ darkMode, countries }) {
                             </p>
                             <p>Currencies:{" "}
                                 {currencies.map((currency) => {
-                                    if (currencies.indexOf(currencies) > 1) {
+                                    if (currencies.indexOf(currencies) > 0) {
                                         return (
                                             <span className={`value ${darkMode ? 'dark-mode' : ''}`}>
                                                 {" "}
@@ -102,7 +102,7 @@ function CountryDetail({ darkMode, countries }) {
                             </p>
                             <p>Languages:
                                 {languages.map((language) => {
-                                    if (languages.indexOf(languages) > 1) {
+                                    if (languages.indexOf(languages) > 0) {
                                         return (
                                             <span className={`value ${darkMode ? 'dark-mode' : ''}`}>
                                                 {" "}
