@@ -92,7 +92,7 @@ function App() {
         <Header onClick={switchMode} darkMode={darkMode}/>
         <Routes>
           <Route
-            path='/'
+            path='/REST-Countries-API-with-color-theme-switcher'
             element={
             <div className={`app-body ${darkMode ? 'dark-mode' : ''}`}>
               <div className='input'>

@@ -43,7 +43,7 @@ function CountryDetail({ darkMode, countries }) {
     })
 
     const goBack = () => {
-        navigate("/");
+        navigate("/REST-Countries-API-with-color-theme-switcher");
     }
 
     return (
